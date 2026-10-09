@@ -27,13 +27,14 @@ Edit `.env.local` and set:
 ```dotenv
 SERPAPI_KEY=your_server_side_serpapi_key
 GAPCITY_LIVE_ENABLED=true
+GAPCITY_PUBLIC_LIVE=true
 SERPAPI_MAX_CALLS=60
 SERPAPI_SEARCH_PAGES=3
-GAPCITY_LIVE_ACCESS_TOKEN=choose_a_private_demo_access_code
+GAPCITY_LIVE_ACCESS_TOKEN=
 GAPCITY_SIGNING_SECRET=choose_a_long_random_secret
 ```
 
-Generate the signing secret with `openssl rand -hex 32`. Keep both the API key and signing secret on the server. Restart Next.js after changing settings. Select **Live search**, enter the access code, then choose **Explore area**. The code is kept in browser memory only. Public production live mode requires an access code and signing secret. Samples remain available when live mode is disabled. A live error does not silently replace real data with sample data.
+Generate the signing secret with `openssl rand -hex 32`. Keep both the API key and signing secret on the server. Restart Next.js after changing settings. With `GAPCITY_PUBLIC_LIVE=true`, anyone can select **Live search** and choose **Explore area**, with no access-code field. Production live mode still requires the private signing secret. For a private demo, set `GAPCITY_PUBLIC_LIVE=false` and configure `GAPCITY_LIVE_ACCESS_TOKEN`; that code is kept in browser memory only. Samples remain available when live mode is disabled. A live error does not silently replace real data with sample data.
 
 Run the first real-data check before making any claims about Vijayawada:
 
@@ -71,7 +72,7 @@ The 3D toggle changes the geographic building layer and camera pitch. Street zoo
 }
 ```
 
-For live calls use `"mode":"live"` and the header `x-gapcity-access`. The server supplies the SerpApi key.
+For live calls use `"mode":"live"`. Public live mode needs no visitor credentials. Private demos additionally require `x-gapcity-access`. The server supplies the SerpApi key.
 
 | Response field | Frontend use |
 | --- | --- |

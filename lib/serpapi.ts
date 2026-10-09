@@ -10,22 +10,24 @@ const number=(x:unknown):number|null=>typeof x==='number'&&Number.isFinite(x)?x:
 const string=(x:unknown):string=>typeof x==='string'?x:'';
 const CACHE_TTL=24*60*60*1000;
 const MAX_CACHE_ENTRIES=150;
+// ponytail: cache and credit ceiling are per process; use an atomic shared store for an account-wide budget.
 type State={calls:number;cache:Map<string,{expires:number;data:Json}>;inflight:Map<string,Promise<Json>>};
 const root=globalThis as typeof globalThis&{__gapcitySerp?:State};
 const state=root.__gapcitySerp??={calls:0,cache:new Map(),inflight:new Map()};
 root.__gapcitySerp=state;
-export function liveConfiguration(){return {available:process.env.GAPCITY_LIVE_ENABLED==='true'&&Boolean(process.env.SERPAPI_KEY),protected:Boolean(process.env.GAPCITY_LIVE_ACCESS_TOKEN),callsUsed:state.calls,callsLimit:maxCalls()};}
+export function liveConfiguration(){return {available:process.env.GAPCITY_LIVE_ENABLED==='true'&&Boolean(process.env.SERPAPI_KEY),protected:process.env.GAPCITY_PUBLIC_LIVE!=='true'&&Boolean(process.env.GAPCITY_LIVE_ACCESS_TOKEN),callsUsed:state.calls,callsLimit:maxCalls()};}
 function maxCalls():number{const n=Number(process.env.SERPAPI_MAX_CALLS||60);return Number.isFinite(n)?Math.max(0,Math.min(500,Math.floor(n))):60;}
 export function authorizeLive(token:string|null):void{
   if(!liveConfiguration().available)throw new AppError('LIVE_NOT_CONFIGURED','Live search is not configured. Set SERPAPI_KEY and GAPCITY_LIVE_ENABLED on the server, or use the sample demo.',503);
-  const expected=process.env.GAPCITY_LIVE_ACCESS_TOKEN;
+  const publicLive=process.env.GAPCITY_PUBLIC_LIVE==='true';
+  const expected=publicLive?undefined:process.env.GAPCITY_LIVE_ACCESS_TOKEN;
   if(expected){
     // Compare fixed-length hashes so token content does not alter comparison time.
     const supplied=createHash('sha256').update(token||'').digest();
     const required=createHash('sha256').update(expected).digest();
     let mismatch=0;for(let i=0;i<required.length;i++)mismatch|=supplied[i]^required[i];
     if(mismatch!==0)throw new AppError('LIVE_ACCESS_REQUIRED','Enter the live access code supplied by the app owner.',401);
-  }else if(process.env.NODE_ENV==='production')throw new AppError('LIVE_ACCESS_NOT_CONFIGURED','Public live search requires a server-side access code. The sample demo remains available.',503);
+  }else if(process.env.NODE_ENV==='production'&&!publicLive)throw new AppError('LIVE_ACCESS_NOT_CONFIGURED','Live search requires public access to be enabled or a server-side access code. The sample demo remains available.',503);
   if(process.env.NODE_ENV==='production'&&!process.env.GAPCITY_SIGNING_SECRET)throw new AppError('SIGNING_NOT_CONFIGURED','Live search requires a signing secret on the server.',503);
 }
 

@@ -9,7 +9,7 @@ import { VIJAYAWADA,demoBusinesses } from '../lib/demo';
 import { buildZones } from '../lib/scoring';
 import { restoreAnalysis } from '../lib/tickets';
 import { summarizeEvidence } from '../lib/themes';
-import { normalizeBusiness,normalizeReview,searchBusinesses,fetchBusinessReviews,serpRequest,resetSerpStateForTests,authorizeLive } from '../lib/serpapi';
+import { normalizeBusiness,normalizeReview,searchBusinesses,fetchBusinessReviews,serpRequest,resetSerpStateForTests,authorizeLive,liveConfiguration } from '../lib/serpapi';
 import type { AnalysisInput,Business,Review } from '../lib/types';
 
 const input:AnalysisInput={category:'Cafes',center:VIJAYAWADA,radiusMeters:1500,mode:'demo'};
@@ -170,4 +170,22 @@ test('production rejects incomplete live settings before any API call',()=>{
     (process.env as Record<string,string|undefined>).NODE_ENV='production';process.env.SERPAPI_KEY='test-key';process.env.GAPCITY_LIVE_ENABLED='true';process.env.GAPCITY_LIVE_ACCESS_TOKEN='code';delete process.env.GAPCITY_SIGNING_SECRET;
     assert.throws(()=>authorizeLive('code'),e=>e instanceof AppError&&e.code==='SIGNING_NOT_CONFIGURED');
   }finally{for(const key of ['NODE_ENV','SERPAPI_KEY','GAPCITY_LIVE_ENABLED','GAPCITY_LIVE_ACCESS_TOKEN','GAPCITY_SIGNING_SECRET']){if(prior[key]===undefined)delete process.env[key];else process.env[key]=prior[key];}}
+});
+test('public production search needs no visitor code but still requires a private signing secret',()=>{
+  const keys=['NODE_ENV','SERPAPI_KEY','GAPCITY_LIVE_ENABLED','GAPCITY_PUBLIC_LIVE','GAPCITY_LIVE_ACCESS_TOKEN','GAPCITY_SIGNING_SECRET'];
+  const prior={...process.env};
+  try{
+    (process.env as Record<string,string|undefined>).NODE_ENV='production';
+    process.env.SERPAPI_KEY='test-key';process.env.GAPCITY_LIVE_ENABLED='true';
+    process.env.GAPCITY_LIVE_ACCESS_TOKEN='legacy-private-code';delete process.env.GAPCITY_PUBLIC_LIVE;
+    process.env.GAPCITY_SIGNING_SECRET='test-signing-secret';
+    assert.throws(()=>authorizeLive(null),e=>e instanceof AppError&&e.status===401);
+    process.env.GAPCITY_PUBLIC_LIVE='true';
+    assert.doesNotThrow(()=>authorizeLive(null));assert.equal(liveConfiguration().protected,false);
+    assert.equal(JSON.stringify(liveConfiguration()).includes('test-key'),false);
+    delete process.env.GAPCITY_SIGNING_SECRET;
+    assert.throws(()=>authorizeLive(null),e=>e instanceof AppError&&e.code==='SIGNING_NOT_CONFIGURED');
+    delete process.env.SERPAPI_KEY;
+    assert.throws(()=>authorizeLive(null),e=>e instanceof AppError&&e.code==='LIVE_NOT_CONFIGURED');
+  }finally{for(const key of keys){if(prior[key]===undefined)delete process.env[key];else process.env[key]=prior[key];}}
 });

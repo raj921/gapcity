@@ -26,7 +26,7 @@ References and their roles: [visual reference notes](docs/visual-references/READ
 - Competitors can be filtered by name/address and sorted. Reviews can be expanded beyond the initial eight; selection/filter changes reset pagination. Initial loading uses samples only.
 - Label synthetic and SerpApi sources explicitly. A live error preserves the current result; never silently substitute samples.
 - Evidence opens from a map marker, zone or accessible list. Show loading, errors, sparse evidence and source links. Scores prioritize research, not demand or profitability.
-- Live credentials remain server-only; the access code is a password field retained in component memory only. Exports omit secrets and signed tickets.
+- Live credentials remain server-only. Public live deployments omit the entire access-code field; visitors choose Live search and Explore area. Optional private demos retain a password gate in component memory. Exports omit secrets and signed tickets. This removes a setup obstacle without adding new visual styles or dependencies; the existing theme remains consistent with the current tweakcn reference.
 - Map controls reflect their current state. If SDK/tiles fail, retain the geographic plot and list, label that the street map is unavailable, and disable unavailable camera controls.
 
 ## Accessibility, motion and performance

@@ -10,4 +10,5 @@ recordings/
 *.log
 
 .DS_Store
+.vercel/
 docs/**/*.png
