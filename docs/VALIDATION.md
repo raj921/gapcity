@@ -80,3 +80,9 @@ Validation:
 The repeatable five-group browser regression passed in a fresh Ego page. Live result screenshot: `docs/circle-recommendations-live.png`.
 
 Repeatable browser regression: `testGapCityCircles(spaceId, pageLabel)` in `scripts/browser-journey.mjs`. Pin/radius changes remain previews until Explore area; live failures preserve the previous completed result.
+
+## Submission source preparation
+
+The first public GitHub check exposed incomplete optional-package entries in the earlier lockfile. Regenerated the lockfile from the pinned manifest in an empty folder, then confirmed a fresh `npm ci` succeeds. Updated Next.js from 16.3.5 to the security-patched 16.3.8. The clean install reports zero known dependency vulnerabilities at this check. Type checking, all 24 tests and the optimized production build passed against that clean installation. This verification did not use `.env.local` or provider credits. The previously recorded live demo remains approximately 71 seconds long.
+
+The repository and release video were verified accessible with unauthenticated HTTP requests. Public links: https://github.com/raj921/gapcity and https://github.com/raj921/gapcity/releases/download/v1.0.0/gapcity-demo-with-ai-voice.mp4. Private local recordings and voice references are excluded. Event submission is a separate portal action; public links alone do not establish submission.
