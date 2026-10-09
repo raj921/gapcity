@@ -4,6 +4,10 @@ See nearby competitors on a geographic 3D map, compare public ratings, and inves
 
 Next.js serves both the interface and API routes. SerpApi supplies business listings and review evidence. MapLibre renders independent OpenStreetMap street and building geography from OpenFreeMap. No whole-city scrape is required.
 
+## Open the public app
+
+[Open GapCity](https://gapcity.vercel.app). Select **Live search** and **Explore area** to use real SerpApi listings without an access code. Credentials remain private on the server.
+
 ## Watch the live demonstration
 
 [Watch or download the narrated demo (71 seconds)](https://github.com/raj921/gapcity/releases/download/v1.0.0/gapcity-demo-with-ai-voice.mp4). The recording shows real SerpApi data; the access code and server credentials are hidden.

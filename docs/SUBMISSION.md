@@ -22,9 +22,10 @@ Codex/ChatGPT assisted with planning, implementation, documentation and automate
 
 ## Review materials
 
+- Public app: https://gapcity.vercel.app
 - Public source: https://github.com/raj921/gapcity
 - Demo: https://github.com/raj921/gapcity/releases/download/v1.0.0/gapcity-demo-with-ai-voice.mp4
 - Demo length: approximately 71 seconds; real Hyderabad search, customer evidence, pin movement, empty-circle guidance, expansion to 5 km and report export.
-- Setup: README.md; a local Next.js server runs the full app. A hosted app is not required by the event's screen-recording standard.
+- Setup: README.md; a local Next.js server runs the full app. The complete frontend and server routes are also deployed publicly on Vercel.
 
-Local recordings, voice samples, environment secrets and private capture artifacts are excluded from the source repository. Submission status is verified separately in the authenticated event portal.
+Local recordings, voice samples, environment secrets and private capture artifacts are excluded from the source repository. **Submitted:** 9 October 2026 at 11:36 pm IST. The authenticated portal displayed “Your project has been submitted” and “SUBMITTED” for GapCity in Commerce & Market Intelligence. Dashboard: https://serpapi.github.io/serpapi-india-hackathon-2026/submit.html. Contact details and legal/availability checkboxes were completed by the participant in Ego before submission.
