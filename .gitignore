@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.env*
+!.env.example
+.gapcity-cache/
+dist/
+*.tsbuildinfo
+test-results/
+recordings/
+*.log
+
+.DS_Store
+docs/**/*.png

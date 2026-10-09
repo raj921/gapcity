@@ -1,0 +1,4251 @@
+{
+  "label": "SYNTHETIC EXAMPLE — invented businesses and reviews",
+  "analysis": {
+    "id": "cce8cc8b-44a2-4a7a-9b80-4250be9e2211",
+    "input": {
+      "category": "Cafes",
+      "center": {
+        "lat": 16.5062,
+        "lng": 80.648
+      },
+      "radiusMeters": 1500,
+      "mode": "demo"
+    },
+    "source": "synthetic",
+    "fetchedAt": "2026-10-09T04:07:59.835Z",
+    "expiresAt": "2026-10-10T04:07:59.836Z",
+    "businesses": [
+      {
+        "id": "sample-1",
+        "name": "Sample Cafe 01",
+        "location": {
+          "lat": 16.5062,
+          "lng": 80.6491255718743
+        },
+        "rating": 3.7,
+        "reviewCount": 35,
+        "address": "Synthetic block 1, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 120,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹₹",
+        "placeId": "synthetic-1"
+      },
+      {
+        "id": "sample-2",
+        "name": "Sample Cafe 02",
+        "location": {
+          "lat": 16.507043741533245,
+          "lng": 80.64870178258488
+        },
+        "rating": 4,
+        "reviewCount": 172,
+        "address": "Synthetic block 1, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 120,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-2"
+      },
+      {
+        "id": "sample-3",
+        "name": "Sample Cafe 03",
+        "location": {
+          "lat": 16.507252128482765,
+          "lng": 80.64774953669529
+        },
+        "rating": 4.3,
+        "reviewCount": 309,
+        "address": "Synthetic block 1, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 120,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-3"
+      },
+      {
+        "id": "sample-4",
+        "name": "Sample Cafe 04",
+        "location": {
+          "lat": 16.506668241225253,
+          "lng": 80.64698589478266
+        },
+        "rating": 4.6,
+        "reviewCount": 446,
+        "address": "Synthetic block 1, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 120,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹",
+        "placeId": "synthetic-4"
+      },
+      {
+        "id": "sample-5",
+        "name": "Sample Cafe 05",
+        "location": {
+          "lat": 16.505731758774747,
+          "lng": 80.64698589478266
+        },
+        "rating": 3.8,
+        "reviewCount": 583,
+        "address": "Synthetic block 1, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 120,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-5"
+      },
+      {
+        "id": "sample-6",
+        "name": "Sample Cafe 06",
+        "location": {
+          "lat": 16.505147871517234,
+          "lng": 80.64774953669529
+        },
+        "rating": 4.1,
+        "reviewCount": 70,
+        "address": "Synthetic block 1, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 120,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-6"
+      },
+      {
+        "id": "sample-7",
+        "name": "Sample Cafe 07",
+        "location": {
+          "lat": 16.505356258466755,
+          "lng": 80.64870178258488
+        },
+        "rating": 4.4,
+        "reviewCount": 207,
+        "address": "Synthetic block 1, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 120,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹₹",
+        "placeId": "synthetic-7"
+      },
+      {
+        "id": "sample-8",
+        "name": "Sample Cafe 08",
+        "location": {
+          "lat": 16.5062,
+          "lng": 80.65287747812197
+        },
+        "rating": 3,
+        "reviewCount": 344,
+        "address": "Synthetic block 2, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 520,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-8"
+      },
+      {
+        "id": "sample-9",
+        "name": "Sample Cafe 09",
+        "location": {
+          "lat": 16.507043741533245,
+          "lng": 80.65245368883255
+        },
+        "rating": 3.1,
+        "reviewCount": 481,
+        "address": "Synthetic block 2, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 484,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-9"
+      },
+      {
+        "id": "sample-10",
+        "name": "Sample Cafe 10",
+        "location": {
+          "lat": 16.507252128482765,
+          "lng": 80.65150144294296
+        },
+        "rating": 3.2,
+        "reviewCount": 618,
+        "address": "Synthetic block 2, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 391,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹",
+        "placeId": "synthetic-10"
+      },
+      {
+        "id": "sample-11",
+        "name": "Sample Cafe 11",
+        "location": {
+          "lat": 16.506668241225253,
+          "lng": 80.65073780103033
+        },
+        "rating": 3.3,
+        "reviewCount": 105,
+        "address": "Synthetic block 2, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 296,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-11"
+      },
+      {
+        "id": "sample-12",
+        "name": "Sample Cafe 12",
+        "location": {
+          "lat": 16.505731758774747,
+          "lng": 80.65073780103033
+        },
+        "rating": 3.4,
+        "reviewCount": 242,
+        "address": "Synthetic block 2, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 296,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-12"
+      },
+      {
+        "id": "sample-13",
+        "name": "Sample Cafe 13",
+        "location": {
+          "lat": 16.505147871517234,
+          "lng": 80.65150144294296
+        },
+        "rating": 3.5,
+        "reviewCount": 379,
+        "address": "Synthetic block 2, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 391,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹₹",
+        "placeId": "synthetic-13"
+      },
+      {
+        "id": "sample-14",
+        "name": "Sample Cafe 14",
+        "location": {
+          "lat": 16.505356258466755,
+          "lng": 80.65245368883255
+        },
+        "rating": 3.5,
+        "reviewCount": 516,
+        "address": "Synthetic block 2, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 484,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-14"
+      },
+      {
+        "id": "sample-15",
+        "name": "Sample Cafe 15",
+        "location": {
+          "lat": 16.509797286423673,
+          "lng": 80.65662938436964
+        },
+        "rating": 4.6,
+        "reviewCount": 653,
+        "address": "Synthetic block 3, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 1003,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-15"
+      },
+      {
+        "id": "sample-16",
+        "name": "Sample Cafe 16",
+        "location": {
+          "lat": 16.51064102795692,
+          "lng": 80.65620559508022
+        },
+        "rating": 3.8,
+        "reviewCount": 140,
+        "address": "Synthetic block 3, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 1005,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹",
+        "placeId": "synthetic-16"
+      },
+      {
+        "id": "sample-17",
+        "name": "Sample Cafe 17",
+        "location": {
+          "lat": 16.510849414906442,
+          "lng": 80.65525334919063
+        },
+        "rating": 4.1,
+        "reviewCount": 277,
+        "address": "Synthetic block 3, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 930,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-17"
+      },
+      {
+        "id": "sample-18",
+        "name": "Sample Cafe 18",
+        "location": {
+          "lat": 16.51026552764893,
+          "lng": 80.654489707278
+        },
+        "rating": 4.4,
+        "reviewCount": 414,
+        "address": "Synthetic block 3, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 826,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-18"
+      },
+      {
+        "id": "sample-19",
+        "name": "Sample Cafe 19",
+        "location": {
+          "lat": 16.50932904519842,
+          "lng": 80.654489707278
+        },
+        "rating": 4.7,
+        "reviewCount": 551,
+        "address": "Synthetic block 3, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 774,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹₹",
+        "placeId": "synthetic-19"
+      },
+      {
+        "id": "sample-20",
+        "name": "Sample Cafe 20",
+        "location": {
+          "lat": 16.508745157940908,
+          "lng": 80.65525334919063
+        },
+        "rating": 3.9,
+        "reviewCount": 38,
+        "address": "Synthetic block 3, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 823,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-20"
+      },
+      {
+        "id": "sample-21",
+        "name": "Sample Cafe 21",
+        "location": {
+          "lat": 16.508953544890428,
+          "lng": 80.65620559508022
+        },
+        "rating": 4.2,
+        "reviewCount": 175,
+        "address": "Synthetic block 3, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 927,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-21"
+      },
+      {
+        "id": "sample-22",
+        "name": "Sample Cafe 22",
+        "location": {
+          "lat": 16.509797286423673,
+          "lng": 80.64537366562662
+        },
+        "rating": 4.5,
+        "reviewCount": 312,
+        "address": "Synthetic block 4, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 488,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹",
+        "placeId": "synthetic-22"
+      },
+      {
+        "id": "sample-23",
+        "name": "Sample Cafe 23",
+        "location": {
+          "lat": 16.51064102795692,
+          "lng": 80.64494987633721
+        },
+        "rating": 3.7,
+        "reviewCount": 449,
+        "address": "Synthetic block 4, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 591,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-23"
+      },
+      {
+        "id": "sample-24",
+        "name": "Sample Cafe 24",
+        "location": {
+          "lat": 16.510849414906442,
+          "lng": 80.64399763044763
+        },
+        "rating": 4,
+        "reviewCount": 586,
+        "address": "Synthetic block 4, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 670,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-24"
+      },
+      {
+        "id": "sample-25",
+        "name": "Sample Cafe 25",
+        "location": {
+          "lat": 16.51026552764893,
+          "lng": 80.643233988535
+        },
+        "rating": 4.3,
+        "reviewCount": 73,
+        "address": "Synthetic block 4, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 680,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹₹",
+        "placeId": "synthetic-25"
+      },
+      {
+        "id": "sample-26",
+        "name": "Sample Cafe 26",
+        "location": {
+          "lat": 16.50932904519842,
+          "lng": 80.643233988535
+        },
+        "rating": 4.6,
+        "reviewCount": 210,
+        "address": "Synthetic block 4, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 616,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-26"
+      },
+      {
+        "id": "sample-27",
+        "name": "Sample Cafe 27",
+        "location": {
+          "lat": 16.508745157940908,
+          "lng": 80.64399763044763
+        },
+        "rating": 3.8,
+        "reviewCount": 347,
+        "address": "Synthetic block 4, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 512,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-27"
+      },
+      {
+        "id": "sample-28",
+        "name": "Sample Cafe 28",
+        "location": {
+          "lat": 16.508953544890428,
+          "lng": 80.64494987633721
+        },
+        "rating": 4.1,
+        "reviewCount": 484,
+        "address": "Synthetic block 4, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 447,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹",
+        "placeId": "synthetic-28"
+      },
+      {
+        "id": "sample-29",
+        "name": "Sample Cafe 29",
+        "location": {
+          "lat": 16.502602713576326,
+          "lng": 80.64162175937896
+        },
+        "rating": 4.4,
+        "reviewCount": 621,
+        "address": "Synthetic block 5, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 789,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-29"
+      },
+      {
+        "id": "sample-30",
+        "name": "Sample Cafe 30",
+        "location": {
+          "lat": 16.50344645510957,
+          "lng": 80.64119797008955
+        },
+        "rating": 4.7,
+        "reviewCount": 108,
+        "address": "Synthetic block 5, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 787,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-30"
+      },
+      {
+        "id": "sample-31",
+        "name": "Sample Cafe 31",
+        "location": {
+          "lat": 16.503654842059092,
+          "lng": 80.64024572419996
+        },
+        "rating": 3.9,
+        "reviewCount": 245,
+        "address": "Synthetic block 5, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 874,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹₹",
+        "placeId": "synthetic-31"
+      },
+      {
+        "id": "sample-32",
+        "name": "Sample Cafe 32",
+        "location": {
+          "lat": 16.50307095480158,
+          "lng": 80.63948208228733
+        },
+        "rating": 4.2,
+        "reviewCount": 382,
+        "address": "Synthetic block 5, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 972,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-32"
+      },
+      {
+        "id": "sample-33",
+        "name": "Sample Cafe 33",
+        "location": {
+          "lat": 16.50213447235107,
+          "lng": 80.63948208228733
+        },
+        "rating": 4.5,
+        "reviewCount": 519,
+        "address": "Synthetic block 5, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 1014,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-33"
+      },
+      {
+        "id": "sample-34",
+        "name": "Sample Cafe 34",
+        "location": {
+          "lat": 16.501550585093558,
+          "lng": 80.64024572419996
+        },
+        "rating": 3.7,
+        "reviewCount": 656,
+        "address": "Synthetic block 5, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 975,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹",
+        "placeId": "synthetic-34"
+      },
+      {
+        "id": "sample-35",
+        "name": "Sample Cafe 35",
+        "location": {
+          "lat": 16.50175897204308,
+          "lng": 80.64119797008955
+        },
+        "rating": 4,
+        "reviewCount": 143,
+        "address": "Synthetic block 5, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 877,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-35"
+      },
+      {
+        "id": "sample-36",
+        "name": "Sample Cafe 36",
+        "location": {
+          "lat": 16.49900542715265,
+          "lng": 80.65287747812197
+        },
+        "rating": 4.3,
+        "reviewCount": 280,
+        "address": "Synthetic block 6, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 954,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-36"
+      },
+      {
+        "id": "sample-37",
+        "name": "Sample Cafe 37",
+        "location": {
+          "lat": 16.499849168685895,
+          "lng": 80.65245368883255
+        },
+        "rating": 4.6,
+        "reviewCount": 417,
+        "address": "Synthetic block 6, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 851,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹₹",
+        "placeId": "synthetic-37"
+      },
+      {
+        "id": "sample-38",
+        "name": "Sample Cafe 38",
+        "location": {
+          "lat": 16.500057555635415,
+          "lng": 80.65150144294296
+        },
+        "rating": 3.8,
+        "reviewCount": 554,
+        "address": "Synthetic block 6, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 778,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-38"
+      },
+      {
+        "id": "sample-39",
+        "name": "Sample Cafe 39",
+        "location": {
+          "lat": 16.499473668377902,
+          "lng": 80.65073780103033
+        },
+        "rating": 4.1,
+        "reviewCount": 41,
+        "address": "Synthetic block 6, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 803,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-39"
+      },
+      {
+        "id": "sample-40",
+        "name": "Sample Cafe 40",
+        "location": {
+          "lat": 16.498537185927397,
+          "lng": 80.65073780103033
+        },
+        "rating": 4.4,
+        "reviewCount": 178,
+        "address": "Synthetic block 6, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 901,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹",
+        "placeId": "synthetic-40"
+      },
+      {
+        "id": "sample-41",
+        "name": "Sample Cafe 41",
+        "location": {
+          "lat": 16.497953298669884,
+          "lng": 80.65150144294296
+        },
+        "rating": 4.7,
+        "reviewCount": 315,
+        "address": "Synthetic block 6, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 990,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-41"
+      },
+      {
+        "id": "sample-42",
+        "name": "Sample Cafe 42",
+        "location": {
+          "lat": 16.498161685619404,
+          "lng": 80.65245368883255
+        },
+        "rating": 3.9,
+        "reviewCount": 452,
+        "address": "Synthetic block 6, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 1012,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-42"
+      },
+      {
+        "id": "sample-43",
+        "name": "Sample Cafe 43",
+        "location": {
+          "lat": 16.51339457284735,
+          "lng": 80.6491255718743
+        },
+        "rating": 4.2,
+        "reviewCount": 589,
+        "address": "Synthetic block 7, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 809,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹₹",
+        "placeId": "synthetic-43"
+      },
+      {
+        "id": "sample-44",
+        "name": "Sample Cafe 44",
+        "location": {
+          "lat": 16.514238314380595,
+          "lng": 80.64870178258488
+        },
+        "rating": 4.5,
+        "reviewCount": 76,
+        "address": "Synthetic block 7, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 897,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-44"
+      },
+      {
+        "id": "sample-45",
+        "name": "Sample Cafe 45",
+        "location": {
+          "lat": 16.514446701330115,
+          "lng": 80.64774953669529
+        },
+        "rating": 3.7,
+        "reviewCount": 213,
+        "address": "Synthetic block 7, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 917,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-45"
+      },
+      {
+        "id": "sample-46",
+        "name": "Sample Cafe 46",
+        "location": {
+          "lat": 16.513862814072603,
+          "lng": 80.64698589478266
+        },
+        "rating": 4,
+        "reviewCount": 350,
+        "address": "Synthetic block 7, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 859,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹",
+        "placeId": "synthetic-46"
+      },
+      {
+        "id": "sample-47",
+        "name": "Sample Cafe 47",
+        "location": {
+          "lat": 16.512926331622097,
+          "lng": 80.64698589478266
+        },
+        "rating": 4.3,
+        "reviewCount": 487,
+        "address": "Synthetic block 7, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 756,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-47"
+      },
+      {
+        "id": "sample-48",
+        "name": "Sample Cafe 48",
+        "location": {
+          "lat": 16.512342444364585,
+          "lng": 80.64774953669529
+        },
+        "rating": 4.6,
+        "reviewCount": 624,
+        "address": "Synthetic block 7, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 684,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-48"
+      },
+      {
+        "id": "sample-49",
+        "name": "Sample Cafe 49",
+        "location": {
+          "lat": 16.512550831314105,
+          "lng": 80.64870178258488
+        },
+        "rating": 3.8,
+        "reviewCount": 111,
+        "address": "Synthetic block 7, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 710,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹₹",
+        "placeId": "synthetic-49"
+      }
+    ],
+    "zones": [
+      {
+        "id": "zone:-4:-1",
+        "center": {
+          "lat": 16.503209836163048,
+          "lng": 80.63450906900152
+        },
+        "polygon": [
+          [
+            80.63486832813315,
+            16.501394090596175
+          ],
+          [
+            80.63486832813315,
+            16.50440135678816
+          ],
+          [
+            80.63407180691176,
+            16.50440135678816
+          ],
+          [
+            80.63420069592063,
+            16.503568265874577
+          ],
+          [
+            80.63453618590896,
+            16.50228411076817
+          ],
+          [
+            80.63486832813315,
+            16.501394090596175
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-4:0",
+        "center": {
+          "lat": 16.5062,
+          "lng": 80.6342581176013
+        },
+        "polygon": [
+          [
+            80.63407180691176,
+            16.50440135678816
+          ],
+          [
+            80.63486832813315,
+            16.50440135678816
+          ],
+          [
+            80.63486832813315,
+            16.507998643211838
+          ],
+          [
+            80.63407180691176,
+            16.507998643211838
+          ],
+          [
+            80.63399810077405,
+            16.50752223398073
+          ],
+          [
+            80.63393035157124,
+            16.5062
+          ],
+          [
+            80.63399810077405,
+            16.50487776601927
+          ],
+          [
+            80.63407180691176,
+            16.50440135678816
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-4:1",
+        "center": {
+          "lat": 16.50919016383695,
+          "lng": 80.63450906900152
+        },
+        "polygon": [
+          [
+            80.63407180691176,
+            16.507998643211838
+          ],
+          [
+            80.63486832813315,
+            16.507998643211838
+          ],
+          [
+            80.63486832813315,
+            16.511005909403824
+          ],
+          [
+            80.63453618590896,
+            16.51011588923183
+          ],
+          [
+            80.63420069592063,
+            16.508831734125422
+          ],
+          [
+            80.63407180691176,
+            16.507998643211838
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-3:-3",
+        "center": {
+          "lat": 16.496810409025507,
+          "lng": 80.6382068223402
+        },
+        "polygon": [
+          [
+            80.63862023438082,
+            16.496166814310595
+          ],
+          [
+            80.63862023438082,
+            16.49720678394081
+          ],
+          [
+            80.637535564412,
+            16.49720678394081
+          ],
+          [
+            80.63805125618711,
+            16.49666125390981
+          ],
+          [
+            80.63862023438082,
+            16.496166814310595
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-3:-2",
+        "center": {
+          "lat": 16.498887178719418,
+          "lng": 80.63698711608507
+        },
+        "polygon": [
+          [
+            80.637535564412,
+            16.49720678394081
+          ],
+          [
+            80.63862023438082,
+            16.49720678394081
+          ],
+          [
+            80.63862023438082,
+            16.500804070364488
+          ],
+          [
+            80.63511657198791,
+            16.500804070364488
+          ],
+          [
+            80.63559167786877,
+            16.499840940944193
+          ],
+          [
+            80.63630151487571,
+            16.498705455287602
+          ],
+          [
+            80.63712401468943,
+            16.497642146193527
+          ],
+          [
+            80.637535564412,
+            16.49720678394081
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-3:-1",
+        "center": {
+          "lat": 16.502140435452866,
+          "lng": 80.63618250613382
+        },
+        "polygon": [
+          [
+            80.63511657198791,
+            16.500804070364488
+          ],
+          [
+            80.63862023438082,
+            16.500804070364488
+          ],
+          [
+            80.63862023438082,
+            16.50440135678816
+          ],
+          [
+            80.63486832813315,
+            16.50440135678816
+          ],
+          [
+            80.63486832813315,
+            16.501394090596175
+          ],
+          [
+            80.63500133978704,
+            16.501037667815705
+          ],
+          [
+            80.63511657198791,
+            16.500804070364488
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-3:0",
+        "center": {
+          "lat": 16.5062,
+          "lng": 80.636744281257
+        },
+        "polygon": [
+          [
+            80.63486832813315,
+            16.50440135678816
+          ],
+          [
+            80.63862023438082,
+            16.50440135678816
+          ],
+          [
+            80.63862023438082,
+            16.507998643211838
+          ],
+          [
+            80.63486832813315,
+            16.507998643211838
+          ],
+          [
+            80.63486832813315,
+            16.50440135678816
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-3:1",
+        "center": {
+          "lat": 16.510259564547138,
+          "lng": 80.63618250613382
+        },
+        "polygon": [
+          [
+            80.63486832813315,
+            16.507998643211838
+          ],
+          [
+            80.63862023438082,
+            16.507998643211838
+          ],
+          [
+            80.63862023438082,
+            16.51159592963551
+          ],
+          [
+            80.63511657198791,
+            16.51159592963551
+          ],
+          [
+            80.63500133978704,
+            16.511362332184294
+          ],
+          [
+            80.63486832813315,
+            16.511005909403824
+          ],
+          [
+            80.63486832813315,
+            16.507998643211838
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-3:2",
+        "center": {
+          "lat": 16.51351282128058,
+          "lng": 80.63698711608507
+        },
+        "polygon": [
+          [
+            80.63511657198791,
+            16.51159592963551
+          ],
+          [
+            80.63862023438082,
+            16.51159592963551
+          ],
+          [
+            80.63862023438082,
+            16.51519321605919
+          ],
+          [
+            80.637535564412,
+            16.51519321605919
+          ],
+          [
+            80.63712401468943,
+            16.514757853806472
+          ],
+          [
+            80.63630151487571,
+            16.513694544712397
+          ],
+          [
+            80.63559167786877,
+            16.512559059055807
+          ],
+          [
+            80.63511657198791,
+            16.51159592963551
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-3:3",
+        "center": {
+          "lat": 16.515589590974493,
+          "lng": 80.6382068223402
+        },
+        "polygon": [
+          [
+            80.637535564412,
+            16.51519321605919
+          ],
+          [
+            80.63862023438082,
+            16.51519321605919
+          ],
+          [
+            80.63862023438082,
+            16.516233185689405
+          ],
+          [
+            80.63805125618711,
+            16.51573874609019
+          ],
+          [
+            80.637535564412,
+            16.51519321605919
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-2:-3",
+        "center": {
+          "lat": 16.49564096808994,
+          "lng": 80.64037285647588
+        },
+        "polygon": [
+          [
+            80.6423721406285,
+            16.493847510993362
+          ],
+          [
+            80.6423721406285,
+            16.49720678394081
+          ],
+          [
+            80.63862023438082,
+            16.49720678394081
+          ],
+          [
+            80.63862023438082,
+            16.496166814310595
+          ],
+          [
+            80.63907430952625,
+            16.495772224965346
+          ],
+          [
+            80.64018332214393,
+            16.494983621194873
+          ],
+          [
+            80.64136761364239,
+            16.494303037283785
+          ],
+          [
+            80.6423721406285,
+            16.493847510993362
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-2:-2",
+        "center": {
+          "lat": 16.49900542715265,
+          "lng": 80.64049618750465
+        },
+        "polygon": [
+          [
+            80.63862023438082,
+            16.49720678394081
+          ],
+          [
+            80.6423721406285,
+            16.49720678394081
+          ],
+          [
+            80.6423721406285,
+            16.500804070364488
+          ],
+          [
+            80.63862023438082,
+            16.500804070364488
+          ],
+          [
+            80.63862023438082,
+            16.49720678394081
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-2:-1",
+        "center": {
+          "lat": 16.502602713576326,
+          "lng": 80.64049618750465
+        },
+        "polygon": [
+          [
+            80.63862023438082,
+            16.500804070364488
+          ],
+          [
+            80.6423721406285,
+            16.500804070364488
+          ],
+          [
+            80.6423721406285,
+            16.50440135678816
+          ],
+          [
+            80.63862023438082,
+            16.50440135678816
+          ],
+          [
+            80.63862023438082,
+            16.500804070364488
+          ]
+        ],
+        "businessIds": [
+          "sample-29",
+          "sample-30",
+          "sample-31",
+          "sample-32",
+          "sample-33",
+          "sample-34",
+          "sample-35"
+        ],
+        "competitorCount": 7,
+        "ratedCount": 7,
+        "reviewCount": 2674,
+        "averageRating": 4.2,
+        "score": 51,
+        "rank": null,
+        "confidence": "moderate",
+        "streetHint": "Synthetic block 5, Vijayawada",
+        "reason": "Public review activity and a 4.2 average rating make this a zone to investigate. Verify rent, footfall and suitability in person."
+      },
+      {
+        "id": "zone:-2:0",
+        "center": {
+          "lat": 16.5062,
+          "lng": 80.64049618750465
+        },
+        "polygon": [
+          [
+            80.63862023438082,
+            16.50440135678816
+          ],
+          [
+            80.6423721406285,
+            16.50440135678816
+          ],
+          [
+            80.6423721406285,
+            16.507998643211838
+          ],
+          [
+            80.63862023438082,
+            16.507998643211838
+          ],
+          [
+            80.63862023438082,
+            16.50440135678816
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-2:1",
+        "center": {
+          "lat": 16.509797286423677,
+          "lng": 80.64049618750465
+        },
+        "polygon": [
+          [
+            80.63862023438082,
+            16.507998643211838
+          ],
+          [
+            80.6423721406285,
+            16.507998643211838
+          ],
+          [
+            80.6423721406285,
+            16.51159592963551
+          ],
+          [
+            80.63862023438082,
+            16.51159592963551
+          ],
+          [
+            80.63862023438082,
+            16.507998643211838
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-2:2",
+        "center": {
+          "lat": 16.51339457284735,
+          "lng": 80.64049618750465
+        },
+        "polygon": [
+          [
+            80.63862023438082,
+            16.51159592963551
+          ],
+          [
+            80.6423721406285,
+            16.51159592963551
+          ],
+          [
+            80.6423721406285,
+            16.51519321605919
+          ],
+          [
+            80.63862023438082,
+            16.51519321605919
+          ],
+          [
+            80.63862023438082,
+            16.51159592963551
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-2:3",
+        "center": {
+          "lat": 16.51675903191006,
+          "lng": 80.64037285647588
+        },
+        "polygon": [
+          [
+            80.63862023438082,
+            16.51519321605919
+          ],
+          [
+            80.6423721406285,
+            16.51519321605919
+          ],
+          [
+            80.6423721406285,
+            16.518552489006638
+          ],
+          [
+            80.64136761364239,
+            16.518096962716214
+          ],
+          [
+            80.64018332214393,
+            16.517416378805127
+          ],
+          [
+            80.63907430952625,
+            16.516627775034653
+          ],
+          [
+            80.63862023438082,
+            16.516233185689405
+          ],
+          [
+            80.63862023438082,
+            16.51519321605919
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-1:-4",
+        "center": {
+          "lat": 16.49326504381508,
+          "lng": 80.64488131189455
+        },
+        "polygon": [
+          [
+            80.64612404687617,
+            16.49284580173512
+          ],
+          [
+            80.64612404687617,
+            16.493609497517138
+          ],
+          [
+            80.64298752131627,
+            16.493609497517138
+          ],
+          [
+            80.64391579664677,
+            16.493291043207513
+          ],
+          [
+            80.64525514775738,
+            16.492969379098493
+          ],
+          [
+            80.64612404687617,
+            16.49284580173512
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-1:-3",
+        "center": {
+          "lat": 16.494869516922744,
+          "lng": 80.64376594582878
+        },
+        "polygon": [
+          [
+            80.64298752131627,
+            16.493609497517138
+          ],
+          [
+            80.64612404687617,
+            16.493609497517138
+          ],
+          [
+            80.64612404687617,
+            16.49720678394081
+          ],
+          [
+            80.6423721406285,
+            16.49720678394081
+          ],
+          [
+            80.6423721406285,
+            16.493847510993362
+          ],
+          [
+            80.64261577864711,
+            16.493737027627198
+          ],
+          [
+            80.64298752131627,
+            16.493609497517138
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-1:-2",
+        "center": {
+          "lat": 16.49900542715265,
+          "lng": 80.64424809375234
+        },
+        "polygon": [
+          [
+            80.6423721406285,
+            16.49720678394081
+          ],
+          [
+            80.64612404687617,
+            16.49720678394081
+          ],
+          [
+            80.64612404687617,
+            16.500804070364488
+          ],
+          [
+            80.6423721406285,
+            16.500804070364488
+          ],
+          [
+            80.6423721406285,
+            16.49720678394081
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-1:-1",
+        "center": {
+          "lat": 16.502602713576326,
+          "lng": 80.64424809375234
+        },
+        "polygon": [
+          [
+            80.6423721406285,
+            16.500804070364488
+          ],
+          [
+            80.64612404687617,
+            16.500804070364488
+          ],
+          [
+            80.64612404687617,
+            16.50440135678816
+          ],
+          [
+            80.6423721406285,
+            16.50440135678816
+          ],
+          [
+            80.6423721406285,
+            16.500804070364488
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-1:0",
+        "center": {
+          "lat": 16.5062,
+          "lng": 80.64424809375234
+        },
+        "polygon": [
+          [
+            80.6423721406285,
+            16.50440135678816
+          ],
+          [
+            80.64612404687617,
+            16.50440135678816
+          ],
+          [
+            80.64612404687617,
+            16.507998643211838
+          ],
+          [
+            80.6423721406285,
+            16.507998643211838
+          ],
+          [
+            80.6423721406285,
+            16.50440135678816
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-1:1",
+        "center": {
+          "lat": 16.509797286423677,
+          "lng": 80.64424809375234
+        },
+        "polygon": [
+          [
+            80.6423721406285,
+            16.507998643211838
+          ],
+          [
+            80.64612404687617,
+            16.507998643211838
+          ],
+          [
+            80.64612404687617,
+            16.51159592963551
+          ],
+          [
+            80.6423721406285,
+            16.51159592963551
+          ],
+          [
+            80.6423721406285,
+            16.507998643211838
+          ]
+        ],
+        "businessIds": [
+          "sample-22",
+          "sample-23",
+          "sample-24",
+          "sample-25",
+          "sample-26",
+          "sample-27",
+          "sample-28"
+        ],
+        "competitorCount": 7,
+        "ratedCount": 7,
+        "reviewCount": 2461,
+        "averageRating": 4.142857142857143,
+        "score": 52,
+        "rank": 2,
+        "confidence": "moderate",
+        "streetHint": "Synthetic block 4, Vijayawada",
+        "reason": "Public review activity and a 4.1 average rating make this a zone to investigate. Verify rent, footfall and suitability in person."
+      },
+      {
+        "id": "zone:-1:2",
+        "center": {
+          "lat": 16.51339457284735,
+          "lng": 80.64424809375234
+        },
+        "polygon": [
+          [
+            80.6423721406285,
+            16.51159592963551
+          ],
+          [
+            80.64612404687617,
+            16.51159592963551
+          ],
+          [
+            80.64612404687617,
+            16.51519321605919
+          ],
+          [
+            80.6423721406285,
+            16.51519321605919
+          ],
+          [
+            80.6423721406285,
+            16.51159592963551
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-1:3",
+        "center": {
+          "lat": 16.517530483077255,
+          "lng": 80.64376594582878
+        },
+        "polygon": [
+          [
+            80.6423721406285,
+            16.51519321605919
+          ],
+          [
+            80.64612404687617,
+            16.51519321605919
+          ],
+          [
+            80.64612404687617,
+            16.51879050248286
+          ],
+          [
+            80.64298752131627,
+            16.51879050248286
+          ],
+          [
+            80.64261577864711,
+            16.518662972372802
+          ],
+          [
+            80.6423721406285,
+            16.518552489006638
+          ],
+          [
+            80.6423721406285,
+            16.51519321605919
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:-1:4",
+        "center": {
+          "lat": 16.519134956184917,
+          "lng": 80.64488131189455
+        },
+        "polygon": [
+          [
+            80.64298752131627,
+            16.51879050248286
+          ],
+          [
+            80.64612404687617,
+            16.51879050248286
+          ],
+          [
+            80.64612404687617,
+            16.51955419826488
+          ],
+          [
+            80.64525514775738,
+            16.519430620901506
+          ],
+          [
+            80.64391579664677,
+            16.519108956792486
+          ],
+          [
+            80.64298752131627,
+            16.51879050248286
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:0:-4",
+        "center": {
+          "lat": 16.49302443437406,
+          "lng": 80.64800000000001
+        },
+        "polygon": [
+          [
+            80.64987595312382,
+            16.49284580173512
+          ],
+          [
+            80.64987595312382,
+            16.493609497517138
+          ],
+          [
+            80.64612404687617,
+            16.493609497517138
+          ],
+          [
+            80.64612404687617,
+            16.49284580173512
+          ],
+          [
+            80.64662093329557,
+            16.49277513310135
+          ],
+          [
+            80.648,
+            16.49271017591122
+          ],
+          [
+            80.64937906670443,
+            16.49277513310135
+          ],
+          [
+            80.64987595312382,
+            16.49284580173512
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:0:-3",
+        "center": {
+          "lat": 16.495408140728976,
+          "lng": 80.648
+        },
+        "polygon": [
+          [
+            80.64612404687617,
+            16.493609497517138
+          ],
+          [
+            80.64987595312382,
+            16.493609497517138
+          ],
+          [
+            80.64987595312382,
+            16.49720678394081
+          ],
+          [
+            80.64612404687617,
+            16.49720678394081
+          ],
+          [
+            80.64612404687617,
+            16.493609497517138
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:0:-2",
+        "center": {
+          "lat": 16.49900542715265,
+          "lng": 80.648
+        },
+        "polygon": [
+          [
+            80.64612404687617,
+            16.49720678394081
+          ],
+          [
+            80.64987595312382,
+            16.49720678394081
+          ],
+          [
+            80.64987595312382,
+            16.500804070364488
+          ],
+          [
+            80.64612404687617,
+            16.500804070364488
+          ],
+          [
+            80.64612404687617,
+            16.49720678394081
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:0:-1",
+        "center": {
+          "lat": 16.502602713576326,
+          "lng": 80.648
+        },
+        "polygon": [
+          [
+            80.64612404687617,
+            16.500804070364488
+          ],
+          [
+            80.64987595312382,
+            16.500804070364488
+          ],
+          [
+            80.64987595312382,
+            16.50440135678816
+          ],
+          [
+            80.64612404687617,
+            16.50440135678816
+          ],
+          [
+            80.64612404687617,
+            16.500804070364488
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:0:0",
+        "center": {
+          "lat": 16.5062,
+          "lng": 80.648
+        },
+        "polygon": [
+          [
+            80.64612404687617,
+            16.50440135678816
+          ],
+          [
+            80.64987595312382,
+            16.50440135678816
+          ],
+          [
+            80.64987595312382,
+            16.507998643211838
+          ],
+          [
+            80.64612404687617,
+            16.507998643211838
+          ],
+          [
+            80.64612404687617,
+            16.50440135678816
+          ]
+        ],
+        "businessIds": [
+          "sample-1",
+          "sample-2",
+          "sample-3",
+          "sample-4",
+          "sample-5",
+          "sample-6",
+          "sample-7"
+        ],
+        "competitorCount": 7,
+        "ratedCount": 7,
+        "reviewCount": 1822,
+        "averageRating": 4.128571428571428,
+        "score": 51,
+        "rank": null,
+        "confidence": "moderate",
+        "streetHint": "Synthetic block 1, Vijayawada",
+        "reason": "Public review activity and a 4.1 average rating make this a zone to investigate. Verify rent, footfall and suitability in person."
+      },
+      {
+        "id": "zone:0:1",
+        "center": {
+          "lat": 16.509797286423677,
+          "lng": 80.648
+        },
+        "polygon": [
+          [
+            80.64612404687617,
+            16.507998643211838
+          ],
+          [
+            80.64987595312382,
+            16.507998643211838
+          ],
+          [
+            80.64987595312382,
+            16.51159592963551
+          ],
+          [
+            80.64612404687617,
+            16.51159592963551
+          ],
+          [
+            80.64612404687617,
+            16.507998643211838
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:0:2",
+        "center": {
+          "lat": 16.51339457284735,
+          "lng": 80.648
+        },
+        "polygon": [
+          [
+            80.64612404687617,
+            16.51159592963551
+          ],
+          [
+            80.64987595312382,
+            16.51159592963551
+          ],
+          [
+            80.64987595312382,
+            16.51519321605919
+          ],
+          [
+            80.64612404687617,
+            16.51519321605919
+          ],
+          [
+            80.64612404687617,
+            16.51159592963551
+          ]
+        ],
+        "businessIds": [
+          "sample-43",
+          "sample-44",
+          "sample-45",
+          "sample-46",
+          "sample-47",
+          "sample-48",
+          "sample-49"
+        ],
+        "competitorCount": 7,
+        "ratedCount": 7,
+        "reviewCount": 2450,
+        "averageRating": 4.157142857142857,
+        "score": 52,
+        "rank": 3,
+        "confidence": "moderate",
+        "streetHint": "Synthetic block 7, Vijayawada",
+        "reason": "Public review activity and a 4.2 average rating make this a zone to investigate. Verify rent, footfall and suitability in person."
+      },
+      {
+        "id": "zone:0:3",
+        "center": {
+          "lat": 16.516991859271023,
+          "lng": 80.648
+        },
+        "polygon": [
+          [
+            80.64612404687617,
+            16.51519321605919
+          ],
+          [
+            80.64987595312382,
+            16.51519321605919
+          ],
+          [
+            80.64987595312382,
+            16.51879050248286
+          ],
+          [
+            80.64612404687617,
+            16.51879050248286
+          ],
+          [
+            80.64612404687617,
+            16.51519321605919
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:0:4",
+        "center": {
+          "lat": 16.51937556562594,
+          "lng": 80.648
+        },
+        "polygon": [
+          [
+            80.64612404687617,
+            16.51879050248286
+          ],
+          [
+            80.64987595312382,
+            16.51879050248286
+          ],
+          [
+            80.64987595312382,
+            16.51955419826488
+          ],
+          [
+            80.64937906670443,
+            16.51962486689865
+          ],
+          [
+            80.648,
+            16.51968982408878
+          ],
+          [
+            80.64662093329557,
+            16.51962486689865
+          ],
+          [
+            80.64612404687617,
+            16.51955419826488
+          ],
+          [
+            80.64612404687617,
+            16.51879050248286
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:1:-4",
+        "center": {
+          "lat": 16.49326504381508,
+          "lng": 80.65111868810544
+        },
+        "polygon": [
+          [
+            80.65301247868372,
+            16.493609497517138
+          ],
+          [
+            80.64987595312382,
+            16.493609497517138
+          ],
+          [
+            80.64987595312382,
+            16.49284580173512
+          ],
+          [
+            80.65074485224261,
+            16.492969379098493
+          ],
+          [
+            80.65208420335323,
+            16.493291043207513
+          ],
+          [
+            80.65301247868372,
+            16.493609497517138
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:1:-3",
+        "center": {
+          "lat": 16.494869516922744,
+          "lng": 80.65223405417122
+        },
+        "polygon": [
+          [
+            80.64987595312382,
+            16.493609497517138
+          ],
+          [
+            80.65301247868372,
+            16.493609497517138
+          ],
+          [
+            80.65338422135288,
+            16.493737027627198
+          ],
+          [
+            80.6536278593715,
+            16.493847510993362
+          ],
+          [
+            80.6536278593715,
+            16.49720678394081
+          ],
+          [
+            80.64987595312382,
+            16.49720678394081
+          ],
+          [
+            80.64987595312382,
+            16.493609497517138
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:1:-2",
+        "center": {
+          "lat": 16.49900542715265,
+          "lng": 80.65175190624765
+        },
+        "polygon": [
+          [
+            80.64987595312382,
+            16.49720678394081
+          ],
+          [
+            80.6536278593715,
+            16.49720678394081
+          ],
+          [
+            80.6536278593715,
+            16.500804070364488
+          ],
+          [
+            80.64987595312382,
+            16.500804070364488
+          ],
+          [
+            80.64987595312382,
+            16.49720678394081
+          ]
+        ],
+        "businessIds": [
+          "sample-36",
+          "sample-37",
+          "sample-38",
+          "sample-39",
+          "sample-40",
+          "sample-41",
+          "sample-42"
+        ],
+        "competitorCount": 7,
+        "ratedCount": 7,
+        "reviewCount": 2237,
+        "averageRating": 4.257142857142856,
+        "score": 48,
+        "rank": null,
+        "confidence": "moderate",
+        "streetHint": "Synthetic block 6, Vijayawada",
+        "reason": "Public review activity and a 4.3 average rating make this a zone to investigate. Verify rent, footfall and suitability in person."
+      },
+      {
+        "id": "zone:1:-1",
+        "center": {
+          "lat": 16.502602713576326,
+          "lng": 80.65175190624765
+        },
+        "polygon": [
+          [
+            80.64987595312382,
+            16.500804070364488
+          ],
+          [
+            80.6536278593715,
+            16.500804070364488
+          ],
+          [
+            80.6536278593715,
+            16.50440135678816
+          ],
+          [
+            80.64987595312382,
+            16.50440135678816
+          ],
+          [
+            80.64987595312382,
+            16.500804070364488
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:1:0",
+        "center": {
+          "lat": 16.5062,
+          "lng": 80.65175190624765
+        },
+        "polygon": [
+          [
+            80.64987595312382,
+            16.50440135678816
+          ],
+          [
+            80.6536278593715,
+            16.50440135678816
+          ],
+          [
+            80.6536278593715,
+            16.507998643211838
+          ],
+          [
+            80.64987595312382,
+            16.507998643211838
+          ],
+          [
+            80.64987595312382,
+            16.50440135678816
+          ]
+        ],
+        "businessIds": [
+          "sample-8",
+          "sample-9",
+          "sample-10",
+          "sample-11",
+          "sample-12",
+          "sample-13",
+          "sample-14"
+        ],
+        "competitorCount": 7,
+        "ratedCount": 7,
+        "reviewCount": 2685,
+        "averageRating": 3.2857142857142856,
+        "score": 77,
+        "rank": 1,
+        "confidence": "moderate",
+        "streetHint": "Synthetic block 2, Vijayawada",
+        "reason": "Public review activity and a 3.3 average rating make this a zone to investigate. Verify rent, footfall and suitability in person."
+      },
+      {
+        "id": "zone:1:1",
+        "center": {
+          "lat": 16.509797286423677,
+          "lng": 80.65175190624765
+        },
+        "polygon": [
+          [
+            80.64987595312382,
+            16.507998643211838
+          ],
+          [
+            80.6536278593715,
+            16.507998643211838
+          ],
+          [
+            80.6536278593715,
+            16.51159592963551
+          ],
+          [
+            80.64987595312382,
+            16.51159592963551
+          ],
+          [
+            80.64987595312382,
+            16.507998643211838
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:1:2",
+        "center": {
+          "lat": 16.51339457284735,
+          "lng": 80.65175190624765
+        },
+        "polygon": [
+          [
+            80.64987595312382,
+            16.51159592963551
+          ],
+          [
+            80.6536278593715,
+            16.51159592963551
+          ],
+          [
+            80.6536278593715,
+            16.51519321605919
+          ],
+          [
+            80.64987595312382,
+            16.51519321605919
+          ],
+          [
+            80.64987595312382,
+            16.51159592963551
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:1:3",
+        "center": {
+          "lat": 16.517530483077255,
+          "lng": 80.65223405417122
+        },
+        "polygon": [
+          [
+            80.64987595312382,
+            16.51519321605919
+          ],
+          [
+            80.6536278593715,
+            16.51519321605919
+          ],
+          [
+            80.6536278593715,
+            16.518552489006638
+          ],
+          [
+            80.65338422135288,
+            16.518662972372802
+          ],
+          [
+            80.65301247868372,
+            16.51879050248286
+          ],
+          [
+            80.64987595312382,
+            16.51879050248286
+          ],
+          [
+            80.64987595312382,
+            16.51519321605919
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:1:4",
+        "center": {
+          "lat": 16.51913495618492,
+          "lng": 80.65111868810546
+        },
+        "polygon": [
+          [
+            80.64987595312382,
+            16.51879050248286
+          ],
+          [
+            80.65301247868372,
+            16.51879050248286
+          ],
+          [
+            80.65208420335323,
+            16.519108956792486
+          ],
+          [
+            80.65074485224261,
+            16.519430620901506
+          ],
+          [
+            80.64987595312382,
+            16.51955419826488
+          ],
+          [
+            80.64987595312382,
+            16.51879050248286
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:2:-3",
+        "center": {
+          "lat": 16.49564096808994,
+          "lng": 80.65562714352411
+        },
+        "polygon": [
+          [
+            80.65737976561917,
+            16.496166814310595
+          ],
+          [
+            80.65737976561917,
+            16.49720678394081
+          ],
+          [
+            80.6536278593715,
+            16.49720678394081
+          ],
+          [
+            80.6536278593715,
+            16.493847510993362
+          ],
+          [
+            80.6546323863576,
+            16.494303037283785
+          ],
+          [
+            80.65581667785607,
+            16.494983621194873
+          ],
+          [
+            80.65692569047374,
+            16.495772224965346
+          ],
+          [
+            80.65737976561917,
+            16.496166814310595
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:2:-2",
+        "center": {
+          "lat": 16.49900542715265,
+          "lng": 80.65550381249534
+        },
+        "polygon": [
+          [
+            80.6536278593715,
+            16.49720678394081
+          ],
+          [
+            80.65737976561917,
+            16.49720678394081
+          ],
+          [
+            80.65737976561917,
+            16.500804070364488
+          ],
+          [
+            80.6536278593715,
+            16.500804070364488
+          ],
+          [
+            80.6536278593715,
+            16.49720678394081
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:2:-1",
+        "center": {
+          "lat": 16.502602713576326,
+          "lng": 80.65550381249534
+        },
+        "polygon": [
+          [
+            80.6536278593715,
+            16.500804070364488
+          ],
+          [
+            80.65737976561917,
+            16.500804070364488
+          ],
+          [
+            80.65737976561917,
+            16.50440135678816
+          ],
+          [
+            80.6536278593715,
+            16.50440135678816
+          ],
+          [
+            80.6536278593715,
+            16.500804070364488
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:2:0",
+        "center": {
+          "lat": 16.5062,
+          "lng": 80.65550381249534
+        },
+        "polygon": [
+          [
+            80.6536278593715,
+            16.50440135678816
+          ],
+          [
+            80.65737976561917,
+            16.50440135678816
+          ],
+          [
+            80.65737976561917,
+            16.507998643211838
+          ],
+          [
+            80.6536278593715,
+            16.507998643211838
+          ],
+          [
+            80.6536278593715,
+            16.50440135678816
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:2:1",
+        "center": {
+          "lat": 16.509797286423677,
+          "lng": 80.65550381249534
+        },
+        "polygon": [
+          [
+            80.6536278593715,
+            16.507998643211838
+          ],
+          [
+            80.65737976561917,
+            16.507998643211838
+          ],
+          [
+            80.65737976561917,
+            16.51159592963551
+          ],
+          [
+            80.6536278593715,
+            16.51159592963551
+          ],
+          [
+            80.6536278593715,
+            16.507998643211838
+          ]
+        ],
+        "businessIds": [
+          "sample-15",
+          "sample-16",
+          "sample-17",
+          "sample-18",
+          "sample-19",
+          "sample-20",
+          "sample-21"
+        ],
+        "competitorCount": 7,
+        "ratedCount": 7,
+        "reviewCount": 2248,
+        "averageRating": 4.242857142857142,
+        "score": 49,
+        "rank": null,
+        "confidence": "moderate",
+        "streetHint": "Synthetic block 3, Vijayawada",
+        "reason": "Public review activity and a 4.2 average rating make this a zone to investigate. Verify rent, footfall and suitability in person."
+      },
+      {
+        "id": "zone:2:2",
+        "center": {
+          "lat": 16.51339457284735,
+          "lng": 80.65550381249534
+        },
+        "polygon": [
+          [
+            80.6536278593715,
+            16.51159592963551
+          ],
+          [
+            80.65737976561917,
+            16.51159592963551
+          ],
+          [
+            80.65737976561917,
+            16.51519321605919
+          ],
+          [
+            80.6536278593715,
+            16.51519321605919
+          ],
+          [
+            80.6536278593715,
+            16.51159592963551
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:2:3",
+        "center": {
+          "lat": 16.51675903191006,
+          "lng": 80.65562714352411
+        },
+        "polygon": [
+          [
+            80.6536278593715,
+            16.51519321605919
+          ],
+          [
+            80.65737976561917,
+            16.51519321605919
+          ],
+          [
+            80.65737976561917,
+            16.516233185689405
+          ],
+          [
+            80.65692569047374,
+            16.516627775034653
+          ],
+          [
+            80.65581667785607,
+            16.517416378805127
+          ],
+          [
+            80.6546323863576,
+            16.518096962716214
+          ],
+          [
+            80.6536278593715,
+            16.518552489006638
+          ],
+          [
+            80.6536278593715,
+            16.51519321605919
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:3:-3",
+        "center": {
+          "lat": 16.496810409025507,
+          "lng": 80.6577931776598
+        },
+        "polygon": [
+          [
+            80.65846443558799,
+            16.49720678394081
+          ],
+          [
+            80.65737976561917,
+            16.49720678394081
+          ],
+          [
+            80.65737976561917,
+            16.496166814310595
+          ],
+          [
+            80.65794874381288,
+            16.49666125390981
+          ],
+          [
+            80.65846443558799,
+            16.49720678394081
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:3:-2",
+        "center": {
+          "lat": 16.49888717871942,
+          "lng": 80.65901288391491
+        },
+        "polygon": [
+          [
+            80.65737976561917,
+            16.49720678394081
+          ],
+          [
+            80.65846443558799,
+            16.49720678394081
+          ],
+          [
+            80.65887598531056,
+            16.497642146193527
+          ],
+          [
+            80.65969848512428,
+            16.498705455287602
+          ],
+          [
+            80.66040832213122,
+            16.499840940944193
+          ],
+          [
+            80.66088342801208,
+            16.500804070364488
+          ],
+          [
+            80.65737976561917,
+            16.500804070364488
+          ],
+          [
+            80.65737976561917,
+            16.49720678394081
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:3:-1",
+        "center": {
+          "lat": 16.502140435452866,
+          "lng": 80.65981749386617
+        },
+        "polygon": [
+          [
+            80.65737976561917,
+            16.500804070364488
+          ],
+          [
+            80.66088342801208,
+            16.500804070364488
+          ],
+          [
+            80.66099866021295,
+            16.501037667815705
+          ],
+          [
+            80.66113167186684,
+            16.501394090596175
+          ],
+          [
+            80.66113167186684,
+            16.50440135678816
+          ],
+          [
+            80.65737976561917,
+            16.50440135678816
+          ],
+          [
+            80.65737976561917,
+            16.500804070364488
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:3:0",
+        "center": {
+          "lat": 16.5062,
+          "lng": 80.659255718743
+        },
+        "polygon": [
+          [
+            80.65737976561917,
+            16.50440135678816
+          ],
+          [
+            80.66113167186684,
+            16.50440135678816
+          ],
+          [
+            80.66113167186684,
+            16.507998643211838
+          ],
+          [
+            80.65737976561917,
+            16.507998643211838
+          ],
+          [
+            80.65737976561917,
+            16.50440135678816
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:3:1",
+        "center": {
+          "lat": 16.510259564547138,
+          "lng": 80.65981749386617
+        },
+        "polygon": [
+          [
+            80.65737976561917,
+            16.507998643211838
+          ],
+          [
+            80.66113167186684,
+            16.507998643211838
+          ],
+          [
+            80.66113167186684,
+            16.511005909403824
+          ],
+          [
+            80.66099866021295,
+            16.511362332184294
+          ],
+          [
+            80.66088342801208,
+            16.51159592963551
+          ],
+          [
+            80.65737976561917,
+            16.51159592963551
+          ],
+          [
+            80.65737976561917,
+            16.507998643211838
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:3:2",
+        "center": {
+          "lat": 16.51351282128058,
+          "lng": 80.65901288391491
+        },
+        "polygon": [
+          [
+            80.65737976561917,
+            16.51159592963551
+          ],
+          [
+            80.66088342801208,
+            16.51159592963551
+          ],
+          [
+            80.66040832213122,
+            16.512559059055807
+          ],
+          [
+            80.65969848512428,
+            16.513694544712397
+          ],
+          [
+            80.65887598531056,
+            16.514757853806472
+          ],
+          [
+            80.65846443558799,
+            16.51519321605919
+          ],
+          [
+            80.65737976561917,
+            16.51519321605919
+          ],
+          [
+            80.65737976561917,
+            16.51159592963551
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:3:3",
+        "center": {
+          "lat": 16.515589590974493,
+          "lng": 80.6577931776598
+        },
+        "polygon": [
+          [
+            80.65737976561917,
+            16.51519321605919
+          ],
+          [
+            80.65846443558799,
+            16.51519321605919
+          ],
+          [
+            80.65794874381288,
+            16.51573874609019
+          ],
+          [
+            80.65737976561917,
+            16.516233185689405
+          ],
+          [
+            80.65737976561917,
+            16.51519321605919
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:4:-1",
+        "center": {
+          "lat": 16.503209836163048,
+          "lng": 80.66149093099847
+        },
+        "polygon": [
+          [
+            80.66192819308823,
+            16.50440135678816
+          ],
+          [
+            80.66113167186684,
+            16.50440135678816
+          ],
+          [
+            80.66113167186684,
+            16.501394090596175
+          ],
+          [
+            80.66146381409104,
+            16.50228411076817
+          ],
+          [
+            80.66179930407937,
+            16.503568265874577
+          ],
+          [
+            80.66192819308823,
+            16.50440135678816
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:4:0",
+        "center": {
+          "lat": 16.5062,
+          "lng": 80.66174188239869
+        },
+        "polygon": [
+          [
+            80.66113167186684,
+            16.50440135678816
+          ],
+          [
+            80.66192819308823,
+            16.50440135678816
+          ],
+          [
+            80.66200189922594,
+            16.50487776601927
+          ],
+          [
+            80.66206964842875,
+            16.5062
+          ],
+          [
+            80.66200189922594,
+            16.50752223398073
+          ],
+          [
+            80.66192819308823,
+            16.507998643211838
+          ],
+          [
+            80.66113167186684,
+            16.507998643211838
+          ],
+          [
+            80.66113167186684,
+            16.50440135678816
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      },
+      {
+        "id": "zone:4:1",
+        "center": {
+          "lat": 16.50919016383695,
+          "lng": 80.66149093099847
+        },
+        "polygon": [
+          [
+            80.66113167186684,
+            16.507998643211838
+          ],
+          [
+            80.66192819308823,
+            16.507998643211838
+          ],
+          [
+            80.66179930407937,
+            16.508831734125422
+          ],
+          [
+            80.66146381409104,
+            16.51011588923183
+          ],
+          [
+            80.66113167186684,
+            16.511005909403824
+          ],
+          [
+            80.66113167186684,
+            16.507998643211838
+          ]
+        ],
+        "businessIds": [],
+        "competitorCount": 0,
+        "ratedCount": 0,
+        "reviewCount": 0,
+        "averageRating": null,
+        "score": null,
+        "rank": null,
+        "confidence": "limited",
+        "streetHint": "No address evidence",
+        "reason": "Too few rated businesses to score this cell."
+      }
+    ],
+    "topZoneIds": [
+      "zone:1:0",
+      "zone:-1:1",
+      "zone:0:2"
+    ],
+    "summary": {
+      "businessCount": 49,
+      "ratedCount": 49,
+      "averageRating": 4.059183673469388,
+      "totalReviews": 16577
+    },
+    "coverage": {
+      "rawCount": 49,
+      "outsideRadius": 0,
+      "missingCoordinates": 0,
+      "duplicates": 0,
+      "pages": 0,
+      "truncated": false
+    },
+    "caveats": [
+      "Sample businesses and reviews are invented. Map geography is independent and may be real.",
+      "Search results are a bounded sample, not a complete census of businesses in this area.",
+      "Unlisted businesses and missing map data are not proof of an opportunity.",
+      "Research scores use ratings and review counts, not footfall, rent, revenue or population.",
+      "Building heights come from map data. Business ratings never change geographic building heights."
+    ]
+  },
+  "evidence": {
+    "analysisId": "cce8cc8b-44a2-4a7a-9b80-4250be9e2211",
+    "zoneId": "zone:1:0",
+    "businesses": [
+      {
+        "id": "sample-10",
+        "name": "Sample Cafe 10",
+        "location": {
+          "lat": 16.507252128482765,
+          "lng": 80.65150144294296
+        },
+        "rating": 3.2,
+        "reviewCount": 618,
+        "address": "Synthetic block 2, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 391,
+        "mapsUrl": "",
+        "openState": "Closed",
+        "price": "₹",
+        "placeId": "synthetic-10"
+      },
+      {
+        "id": "sample-14",
+        "name": "Sample Cafe 14",
+        "location": {
+          "lat": 16.505356258466755,
+          "lng": 80.65245368883255
+        },
+        "rating": 3.5,
+        "reviewCount": 516,
+        "address": "Synthetic block 2, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 484,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹",
+        "placeId": "synthetic-14"
+      },
+      {
+        "id": "sample-9",
+        "name": "Sample Cafe 09",
+        "location": {
+          "lat": 16.507043741533245,
+          "lng": 80.65245368883255
+        },
+        "rating": 3.1,
+        "reviewCount": 481,
+        "address": "Synthetic block 2, Vijayawada",
+        "category": "Cafes",
+        "distanceMeters": 484,
+        "mapsUrl": "",
+        "openState": "Open",
+        "price": "₹₹",
+        "placeId": "synthetic-9"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "sample-10-review-0",
+        "businessId": "sample-10",
+        "rating": 2,
+        "text": "[Synthetic review] The wait was long and service was slow during our visit.",
+        "date": "2026-09-30",
+        "isoDate": "2026-09-30T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-1",
+        "businessId": "sample-10",
+        "rating": 2,
+        "text": "[Synthetic review] The price felt expensive for the quality we received.",
+        "date": "2026-09-29",
+        "isoDate": "2026-09-29T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-2",
+        "businessId": "sample-10",
+        "rating": 2,
+        "text": "[Synthetic review] Parking was difficult and there was very little space.",
+        "date": "2026-09-28",
+        "isoDate": "2026-09-28T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-3",
+        "businessId": "sample-10",
+        "rating": 5,
+        "text": "[Synthetic review] The quality was excellent and the team was friendly.",
+        "date": "2026-09-27",
+        "isoDate": "2026-09-27T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-4",
+        "businessId": "sample-10",
+        "rating": 2,
+        "text": "[Synthetic review] The staff were rude when we asked for help.",
+        "date": "2026-09-26",
+        "isoDate": "2026-09-26T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-5",
+        "businessId": "sample-10",
+        "rating": 2,
+        "text": "[Synthetic review] The service was slow, although the staff were polite.",
+        "date": "2026-09-25",
+        "isoDate": "2026-09-25T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-6",
+        "businessId": "sample-10",
+        "rating": 5,
+        "text": "[Synthetic review] Good value for money and convenient parking.",
+        "date": "2026-09-24",
+        "isoDate": "2026-09-24T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-7",
+        "businessId": "sample-10",
+        "rating": 2,
+        "text": "[Synthetic review] The price felt expensive for the quality we received.",
+        "date": "2026-09-23",
+        "isoDate": "2026-09-23T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-8",
+        "businessId": "sample-10",
+        "rating": 2,
+        "text": "[Synthetic review] Parking was difficult and there was very little space.",
+        "date": "2026-09-22",
+        "isoDate": "2026-09-22T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-9",
+        "businessId": "sample-10",
+        "rating": 5,
+        "text": "[Synthetic review] Clean space and quick service, with helpful staff.",
+        "date": "2026-09-21",
+        "isoDate": "2026-09-21T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-10",
+        "businessId": "sample-10",
+        "rating": 2,
+        "text": "[Synthetic review] The staff were rude when we asked for help.",
+        "date": "2026-09-20",
+        "isoDate": "2026-09-20T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-11",
+        "businessId": "sample-10",
+        "rating": 2,
+        "text": "[Synthetic review] The service was slow, although the staff were polite.",
+        "date": "2026-09-19",
+        "isoDate": "2026-09-19T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-12",
+        "businessId": "sample-10",
+        "rating": 5,
+        "text": "[Synthetic review] Friendly staff and good quality. We enjoyed the visit.",
+        "date": "2026-09-18",
+        "isoDate": "2026-09-18T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-13",
+        "businessId": "sample-10",
+        "rating": 2,
+        "text": "[Synthetic review] The price felt expensive for the quality we received.",
+        "date": "2026-09-17",
+        "isoDate": "2026-09-17T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-14",
+        "businessId": "sample-10",
+        "rating": 2,
+        "text": "[Synthetic review] Parking was difficult and there was very little space.",
+        "date": "2026-09-16",
+        "isoDate": "2026-09-16T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-10-review-15",
+        "businessId": "sample-10",
+        "rating": 2,
+        "text": "[Synthetic review] The place was dirty and cleanliness needs attention.",
+        "date": "2026-09-15",
+        "isoDate": "2026-09-15T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-0",
+        "businessId": "sample-14",
+        "rating": 2,
+        "text": "[Synthetic review] The wait was long and service was slow during our visit.",
+        "date": "2026-09-30",
+        "isoDate": "2026-09-30T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-1",
+        "businessId": "sample-14",
+        "rating": 2,
+        "text": "[Synthetic review] The price felt expensive for the quality we received.",
+        "date": "2026-09-29",
+        "isoDate": "2026-09-29T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-2",
+        "businessId": "sample-14",
+        "rating": 2,
+        "text": "[Synthetic review] Parking was difficult and there was very little space.",
+        "date": "2026-09-28",
+        "isoDate": "2026-09-28T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-3",
+        "businessId": "sample-14",
+        "rating": 5,
+        "text": "[Synthetic review] The quality was excellent and the team was friendly.",
+        "date": "2026-09-27",
+        "isoDate": "2026-09-27T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-4",
+        "businessId": "sample-14",
+        "rating": 2,
+        "text": "[Synthetic review] The staff were rude when we asked for help.",
+        "date": "2026-09-26",
+        "isoDate": "2026-09-26T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-5",
+        "businessId": "sample-14",
+        "rating": 2,
+        "text": "[Synthetic review] The service was slow, although the staff were polite.",
+        "date": "2026-09-25",
+        "isoDate": "2026-09-25T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-6",
+        "businessId": "sample-14",
+        "rating": 5,
+        "text": "[Synthetic review] Good value for money and convenient parking.",
+        "date": "2026-09-24",
+        "isoDate": "2026-09-24T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-7",
+        "businessId": "sample-14",
+        "rating": 2,
+        "text": "[Synthetic review] The price felt expensive for the quality we received.",
+        "date": "2026-09-23",
+        "isoDate": "2026-09-23T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-8",
+        "businessId": "sample-14",
+        "rating": 2,
+        "text": "[Synthetic review] Parking was difficult and there was very little space.",
+        "date": "2026-09-22",
+        "isoDate": "2026-09-22T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-9",
+        "businessId": "sample-14",
+        "rating": 5,
+        "text": "[Synthetic review] Clean space and quick service, with helpful staff.",
+        "date": "2026-09-21",
+        "isoDate": "2026-09-21T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-10",
+        "businessId": "sample-14",
+        "rating": 2,
+        "text": "[Synthetic review] The staff were rude when we asked for help.",
+        "date": "2026-09-20",
+        "isoDate": "2026-09-20T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-11",
+        "businessId": "sample-14",
+        "rating": 2,
+        "text": "[Synthetic review] The service was slow, although the staff were polite.",
+        "date": "2026-09-19",
+        "isoDate": "2026-09-19T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-12",
+        "businessId": "sample-14",
+        "rating": 5,
+        "text": "[Synthetic review] Friendly staff and good quality. We enjoyed the visit.",
+        "date": "2026-09-18",
+        "isoDate": "2026-09-18T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-13",
+        "businessId": "sample-14",
+        "rating": 2,
+        "text": "[Synthetic review] The price felt expensive for the quality we received.",
+        "date": "2026-09-17",
+        "isoDate": "2026-09-17T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-14",
+        "businessId": "sample-14",
+        "rating": 2,
+        "text": "[Synthetic review] Parking was difficult and there was very little space.",
+        "date": "2026-09-16",
+        "isoDate": "2026-09-16T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-14-review-15",
+        "businessId": "sample-14",
+        "rating": 2,
+        "text": "[Synthetic review] The place was dirty and cleanliness needs attention.",
+        "date": "2026-09-15",
+        "isoDate": "2026-09-15T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-0",
+        "businessId": "sample-9",
+        "rating": 2,
+        "text": "[Synthetic review] The wait was long and service was slow during our visit.",
+        "date": "2026-09-30",
+        "isoDate": "2026-09-30T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-1",
+        "businessId": "sample-9",
+        "rating": 2,
+        "text": "[Synthetic review] The price felt expensive for the quality we received.",
+        "date": "2026-09-29",
+        "isoDate": "2026-09-29T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-2",
+        "businessId": "sample-9",
+        "rating": 2,
+        "text": "[Synthetic review] Parking was difficult and there was very little space.",
+        "date": "2026-09-28",
+        "isoDate": "2026-09-28T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-3",
+        "businessId": "sample-9",
+        "rating": 5,
+        "text": "[Synthetic review] The quality was excellent and the team was friendly.",
+        "date": "2026-09-27",
+        "isoDate": "2026-09-27T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-4",
+        "businessId": "sample-9",
+        "rating": 2,
+        "text": "[Synthetic review] The staff were rude when we asked for help.",
+        "date": "2026-09-26",
+        "isoDate": "2026-09-26T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-5",
+        "businessId": "sample-9",
+        "rating": 2,
+        "text": "[Synthetic review] The service was slow, although the staff were polite.",
+        "date": "2026-09-25",
+        "isoDate": "2026-09-25T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-6",
+        "businessId": "sample-9",
+        "rating": 5,
+        "text": "[Synthetic review] Good value for money and convenient parking.",
+        "date": "2026-09-24",
+        "isoDate": "2026-09-24T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-7",
+        "businessId": "sample-9",
+        "rating": 2,
+        "text": "[Synthetic review] The price felt expensive for the quality we received.",
+        "date": "2026-09-23",
+        "isoDate": "2026-09-23T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-8",
+        "businessId": "sample-9",
+        "rating": 2,
+        "text": "[Synthetic review] Parking was difficult and there was very little space.",
+        "date": "2026-09-22",
+        "isoDate": "2026-09-22T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-9",
+        "businessId": "sample-9",
+        "rating": 5,
+        "text": "[Synthetic review] Clean space and quick service, with helpful staff.",
+        "date": "2026-09-21",
+        "isoDate": "2026-09-21T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-10",
+        "businessId": "sample-9",
+        "rating": 2,
+        "text": "[Synthetic review] The staff were rude when we asked for help.",
+        "date": "2026-09-20",
+        "isoDate": "2026-09-20T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-11",
+        "businessId": "sample-9",
+        "rating": 2,
+        "text": "[Synthetic review] The service was slow, although the staff were polite.",
+        "date": "2026-09-19",
+        "isoDate": "2026-09-19T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-12",
+        "businessId": "sample-9",
+        "rating": 5,
+        "text": "[Synthetic review] Friendly staff and good quality. We enjoyed the visit.",
+        "date": "2026-09-18",
+        "isoDate": "2026-09-18T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-13",
+        "businessId": "sample-9",
+        "rating": 2,
+        "text": "[Synthetic review] The price felt expensive for the quality we received.",
+        "date": "2026-09-17",
+        "isoDate": "2026-09-17T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-14",
+        "businessId": "sample-9",
+        "rating": 2,
+        "text": "[Synthetic review] Parking was difficult and there was very little space.",
+        "date": "2026-09-16",
+        "isoDate": "2026-09-16T00:00:00.000Z",
+        "url": ""
+      },
+      {
+        "id": "sample-9-review-15",
+        "businessId": "sample-9",
+        "rating": 2,
+        "text": "[Synthetic review] The place was dirty and cleanliness needs attention.",
+        "date": "2026-09-15",
+        "isoDate": "2026-09-15T00:00:00.000Z",
+        "url": ""
+      }
+    ],
+    "complaints": [
+      {
+        "key": "staff",
+        "label": "Staff & experience",
+        "count": 12,
+        "businessCount": 3,
+        "reviewIds": [
+          "sample-10-review-4",
+          "sample-10-review-5",
+          "sample-10-review-10",
+          "sample-10-review-11",
+          "sample-14-review-4",
+          "sample-14-review-5",
+          "sample-14-review-10",
+          "sample-14-review-11",
+          "sample-9-review-4",
+          "sample-9-review-5",
+          "sample-9-review-10",
+          "sample-9-review-11"
+        ],
+        "suggestion": "Review service interactions and train staff to resolve problems clearly."
+      },
+      {
+        "key": "access",
+        "label": "Parking & access",
+        "count": 9,
+        "businessCount": 3,
+        "reviewIds": [
+          "sample-10-review-2",
+          "sample-10-review-8",
+          "sample-10-review-14",
+          "sample-14-review-2",
+          "sample-14-review-8",
+          "sample-14-review-14",
+          "sample-9-review-2",
+          "sample-9-review-8",
+          "sample-9-review-14"
+        ],
+        "suggestion": "Check access and parking in person before treating this as an advantage."
+      },
+      {
+        "key": "quality",
+        "label": "Quality",
+        "count": 9,
+        "businessCount": 3,
+        "reviewIds": [
+          "sample-10-review-1",
+          "sample-10-review-7",
+          "sample-10-review-13",
+          "sample-14-review-1",
+          "sample-14-review-7",
+          "sample-14-review-13",
+          "sample-9-review-1",
+          "sample-9-review-7",
+          "sample-9-review-13"
+        ],
+        "suggestion": "Compare the actual products or services, then test a specific quality improvement."
+      },
+      {
+        "key": "service",
+        "label": "Waiting & service",
+        "count": 9,
+        "businessCount": 3,
+        "reviewIds": [
+          "sample-10-review-0",
+          "sample-10-review-5",
+          "sample-10-review-11",
+          "sample-14-review-0",
+          "sample-14-review-5",
+          "sample-14-review-11",
+          "sample-9-review-0",
+          "sample-9-review-5",
+          "sample-9-review-11"
+        ],
+        "suggestion": "Test a faster service workflow and publish realistic waiting times."
+      },
+      {
+        "key": "value",
+        "label": "Price & value",
+        "count": 9,
+        "businessCount": 3,
+        "reviewIds": [
+          "sample-10-review-1",
+          "sample-10-review-7",
+          "sample-10-review-13",
+          "sample-14-review-1",
+          "sample-14-review-7",
+          "sample-14-review-13",
+          "sample-9-review-1",
+          "sample-9-review-7",
+          "sample-9-review-13"
+        ],
+        "suggestion": "Compare local prices and make your pricing clear before customers book."
+      },
+      {
+        "key": "cleanliness",
+        "label": "Cleanliness",
+        "count": 3,
+        "businessCount": 3,
+        "reviewIds": [
+          "sample-10-review-15",
+          "sample-14-review-15",
+          "sample-9-review-15"
+        ],
+        "suggestion": "Check cleanliness on site and establish a visible cleaning routine."
+      }
+    ],
+    "strengths": [
+      {
+        "key": "staff",
+        "label": "Staff & experience",
+        "count": 9,
+        "businessCount": 3,
+        "reviewIds": [
+          "sample-10-review-3",
+          "sample-10-review-9",
+          "sample-10-review-12",
+          "sample-14-review-3",
+          "sample-14-review-9",
+          "sample-14-review-12",
+          "sample-9-review-3",
+          "sample-9-review-9",
+          "sample-9-review-12"
+        ],
+        "suggestion": "Review service interactions and train staff to resolve problems clearly."
+      },
+      {
+        "key": "access",
+        "label": "Parking & access",
+        "count": 6,
+        "businessCount": 3,
+        "reviewIds": [
+          "sample-10-review-6",
+          "sample-10-review-9",
+          "sample-14-review-6",
+          "sample-14-review-9",
+          "sample-9-review-6",
+          "sample-9-review-9"
+        ],
+        "suggestion": "Check access and parking in person before treating this as an advantage."
+      },
+      {
+        "key": "quality",
+        "label": "Quality",
+        "count": 6,
+        "businessCount": 3,
+        "reviewIds": [
+          "sample-10-review-3",
+          "sample-10-review-12",
+          "sample-14-review-3",
+          "sample-14-review-12",
+          "sample-9-review-3",
+          "sample-9-review-12"
+        ],
+        "suggestion": "Compare the actual products or services, then test a specific quality improvement."
+      },
+      {
+        "key": "cleanliness",
+        "label": "Cleanliness",
+        "count": 3,
+        "businessCount": 3,
+        "reviewIds": [
+          "sample-10-review-9",
+          "sample-14-review-9",
+          "sample-9-review-9"
+        ],
+        "suggestion": "Check cleanliness on site and establish a visible cleaning routine."
+      },
+      {
+        "key": "service",
+        "label": "Waiting & service",
+        "count": 3,
+        "businessCount": 3,
+        "reviewIds": [
+          "sample-10-review-9",
+          "sample-14-review-9",
+          "sample-9-review-9"
+        ],
+        "suggestion": "Test a faster service workflow and publish realistic waiting times."
+      },
+      {
+        "key": "value",
+        "label": "Price & value",
+        "count": 3,
+        "businessCount": 3,
+        "reviewIds": [
+          "sample-10-review-6",
+          "sample-14-review-6",
+          "sample-9-review-6"
+        ],
+        "suggestion": "Compare local prices and make your pricing clear before customers book."
+      }
+    ],
+    "recommendation": "Staff & experience appears in low-rated sampled reviews from 3 businesses. Review service interactions and train staff to resolve problems clearly.",
+    "status": "sample_only",
+    "source": "synthetic",
+    "fetchedAt": "2026-10-09T04:07:59.836Z",
+    "sampleSize": 48,
+    "caveats": [
+      "Themes are English keyword matches grouped by review rating. A theme is a prompt for manual review, not a proven complaint.",
+      "Newest reviews are a small sample, not the full customer population. Mixed sentiment and sarcasm may be misclassified.",
+      "One snapshot cannot establish business growth, sales, market demand or changes in reputation.",
+      "These businesses and reviews are invented demonstration records. Do not use them for decisions."
+    ]
+  }
+}

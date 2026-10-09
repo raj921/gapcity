@@ -1,0 +1,82 @@
+export type Coordinates = { lat: number; lng: number };
+export type AnalysisInput = {
+  category: string;
+  center: Coordinates;
+  radiusMeters: number;
+  mode: 'demo' | 'live';
+};
+export type Business = {
+  id: string;
+  name: string;
+  location: Coordinates;
+  rating: number | null;
+  reviewCount: number | null;
+  address: string;
+  category: string;
+  distanceMeters: number;
+  mapsUrl: string;
+  openState: string | null;
+  price: string | null;
+  dataId?: string;
+  placeId?: string;
+};
+export type Zone = {
+  id: string;
+  center: Coordinates;
+  polygon: [number, number][];
+  businessIds: string[];
+  competitorCount: number;
+  ratedCount: number;
+  reviewCount: number;
+  averageRating: number | null;
+  score: number | null;
+  rank: number | null;
+  confidence: 'limited' | 'moderate';
+  streetHint: string;
+  reason: string;
+};
+export type Analysis = {
+  id: string;
+  ticket: string;
+  input: AnalysisInput;
+  source: 'synthetic' | 'serpapi';
+  fetchedAt: string;
+  expiresAt: string;
+  businesses: Business[];
+  zones: Zone[];
+  topZoneIds: string[];
+  summary: { businessCount: number; ratedCount: number; averageRating: number | null; totalReviews: number };
+  coverage: { rawCount: number; outsideRadius: number; missingCoordinates: number; duplicates: number; pages: number; truncated: boolean };
+  caveats: string[];
+};
+export type Review = {
+  id: string;
+  businessId: string;
+  rating: number | null;
+  text: string;
+  date: string | null;
+  isoDate: string | null;
+  url: string;
+};
+export type Theme = {
+  key: string;
+  label: string;
+  count: number;
+  businessCount: number;
+  reviewIds: string[];
+  suggestion: string;
+};
+export type Evidence = {
+  analysisId: string;
+  zoneId: string | null;
+  businesses: Business[];
+  reviews: Review[];
+  complaints: Theme[];
+  strengths: Theme[];
+  recommendation: string;
+  status: 'sample_only' | 'insufficient_evidence' | 'evidence_available';
+  source: 'synthetic' | 'serpapi';
+  fetchedAt: string;
+  sampleSize: number;
+  caveats: string[];
+};
